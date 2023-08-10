@@ -1,4 +1,5 @@
 #include <stdio.h>
+/* The main function is the entry point for your program. */
 int main(void)
 {
 puts("\"Programming is like building a multilingual puzzle");
