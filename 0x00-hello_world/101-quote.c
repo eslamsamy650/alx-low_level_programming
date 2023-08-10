@@ -8,7 +8,7 @@
 */
 int main(void)
 {
-char *message = "and that piece of art is useful\" - Dora Korpar, 2015-10-19";
+char *message = "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n";
 unsigned long  int i;
 for (i = 0; i < strlen(message); i++)
 {
