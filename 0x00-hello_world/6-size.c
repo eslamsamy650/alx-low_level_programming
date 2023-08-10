@@ -9,7 +9,7 @@ int main(void)
 /* Print the size of the char type. */
 printf("Size of a char: %lu byte(s)\n", sizeof(char));
 /* Print the size of the int type. */
-printf("Size of a int: %lu byte(s)\n", sizeof(int));
+printf("Size of an int: %lu byte(s)\n", sizeof(int));
 /* Print the size of the long int type. */
 printf("Size of a long int: %lu byte(s)\n", sizeof(long int));
 /* Print the size of the float type. */
