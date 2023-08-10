@@ -8,11 +8,11 @@
 */
 int main(void)
 {
-char *msg = "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n";
+char *message = "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n";
 unsigned long int i;
-for (i = 0; i < strlen(msq); i++)
+for (i = 0; i < strlen(message); i++)
 {
-putchar(msq[i]);
+putchar(message[i]);
 }
 return (1);
 }
