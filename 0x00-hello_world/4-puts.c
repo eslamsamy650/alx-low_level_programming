@@ -1,8 +1,11 @@
 #include <stdio.h>
-/*
-* The main function is the entry point for your program.
-* It only Print The Below Sentance.
-* It takes no parameters and returns an integer.
+/**
+* main - Entry point
+*
+* Description: 'the program's description'
+* @parameter: describe the parameter
+*
+* Return: Always 0 (Success)
 */
 int main(void)
 {
