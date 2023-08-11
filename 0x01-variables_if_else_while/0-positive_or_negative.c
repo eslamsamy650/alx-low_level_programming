@@ -7,6 +7,8 @@
 int main(void)
 {
 int n;
+for (int i = 0 ; i < 100 ; i++)
+{
 scanf("%d", &n);
 if (n > 0)
 {
@@ -19,6 +21,7 @@ printf("%d is zero", n);
 else if (n < 0)
 {
 printf("%d is negative", n);
+}
 }
 return (0);
 }
