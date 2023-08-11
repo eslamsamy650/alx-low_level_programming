@@ -10,7 +10,7 @@ int main(void)
 char ch = 'a';
 for (ch = 'a'; ch <= 'z'; ch++)
 {
-if (ch != 'q' && ch != 'e') 
+if (ch != 'q' && ch != 'e')
 {
 printf("%c", ch);
 }
