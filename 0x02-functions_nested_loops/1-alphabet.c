@@ -1,19 +1,18 @@
-#include <stdio.h>
+#include "main.h"
+
 /**
- * main - Entry point
- * Description: 'the program's description'
- * Return: Always 0 (Success)
- */
-int main(void)
-{
+  * print_alphabet - Make the alphabet
+  *
+  * Return: void
+  */
 void print_alphabet(void)
 {
-int i;
-for (i = 'a'; i <= 'z'; i++)
-{
-_putchar(i);
-}
-_putchar('\n');
-}
-return (0);
+	char c;
+
+	for (c = 'a'; c <= 'z'; c++)
+	{
+		_putchar(c);
+	}
+
+	_putchar('\n');
 }
